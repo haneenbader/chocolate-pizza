@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+#title {
+    display: inline-block;
+}
+
+body header img {
+    width: 60px ;
+} 
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 50px;
+    margin: 0px;
+   
+}
+
+body header p {
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0px;
+   
+}
+
+
+hr {
+    background-image: url("img/hr-img.png");
+    background-repeat: repeat-x;
+   
+  }
+
+#icone {
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    bottom: 90%;
+        
+}
+
+  
+header {
+    position: relative;
+}
+
+#firstSection h2{
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    width: 50%;
+}
+
+#date {
+    font-family: 'Merriweather', serif;
+    font-size:smaller;
+    margin: 0px;
+    color: gray;
+    width: 50%;
+    
+}
+
+body{
+    width:75%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+#datePrint img{
+    margin-left: 80%;
+
+
+}
+#vanessa p, #vanessa button, #vanessa h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+#vanessa #vanessaText{
+    width: 40%;
+    display: inline-block;
+    margin-right: 200px;
+    margin-left: 30px;
+}
+#vanessa {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
+    color: gray;
+}
+button{
+    background-color: indianred;
+    padding: 25px;
+}
