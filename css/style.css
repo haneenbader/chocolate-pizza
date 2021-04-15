@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
 #title {
     display: inline-block;
@@ -31,4 +31,57 @@ hr {
    
   }
 
+#icone {
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    bottom: 90%;
+        
+}
+
   
+header {
+    position: relative;
+}
+
+#firstSection h2{
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    width: 50%;
+}
+
+#date {
+    font-family: 'Merriweather', serif;
+    font-size:smaller;
+    margin: 0px;
+    color: gray;
+    width: 50%;
+    
+}
+
+body{
+    width:75%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#datePrint{
+    display:inline-block;
+
+}
+#datePrint img{
+    margin-left: 100px;
+
+}
+#vanessa p, #vanessa button, #vanessa h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+#vanessa #vanessaText{
+    width: 40%;
+    display: inline-block;
+    margin-right: 200px;
+    margin-left: 30px;
+}
