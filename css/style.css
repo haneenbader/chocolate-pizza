@@ -67,12 +67,10 @@ body{
     margin-right: 15%;
 }
 
-#datePrint{
-    display:inline-block;
 
-}
 #datePrint img{
-    margin-left: 100px;
+    margin-left: 80%;
+
 
 }
 #vanessa p, #vanessa button, #vanessa h3{
@@ -84,4 +82,16 @@ body{
     display: inline-block;
     margin-right: 200px;
     margin-left: 30px;
+}
+#vanessa {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
+    color: gray;
+}
+button{
+    background-color: indianred;
+    padding: 25px;
 }
